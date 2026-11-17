@@ -1,0 +1,162 @@
+[
+  {
+    "id": "top",
+    "name": "转不停的木陀螺",
+    "emoji": "🌀",
+    "color": "#e9d4c1",
+    "desc": "绕好绳，轻轻一甩，它就在地上转起了整个下午。你还记得是谁教会你的吗？",
+    "modelUrl": "assets/wooden-top.glb"
+  },
+  {
+    "id": "frog",
+    "name": "发条小青蛙",
+    "emoji": "🐸",
+    "color": "#dae5cb",
+    "desc": "拧上几圈发条，它就笨拙地蹦向远方。小时候的快乐，原来真的会自己动。",
+    "modelUrl": "assets/windup-frog.glb"
+  },
+  {
+    "id": "bear",
+    "name": "舍不得用的小熊橡皮",
+    "emoji": "🧸",
+    "color": "#dae3e8",
+    "desc": "它一直住在铅笔盒最里面，干干净净的，舍不得擦掉任何一个字。你也藏过这样一件小宝贝吗？",
+    "modelUrl": "assets/bear-eraser.glb"
+  },
+  {
+    "id": "car",
+    "name": "放学路上的回力车",
+    "emoji": "🚙",
+    "color": "#d7e8df",
+    "desc": "轻轻往后一拉，松开手，它就冲向走廊尽头。那时候，一块地砖就是一条赛道。",
+    "modelUrl": "assets/pullback-car.glb"
+  },
+  {
+    "id": "robot",
+    "name": "咔哒咔哒的铁皮伙伴",
+    "emoji": "🤖",
+    "color": "#dce4e3",
+    "desc": "上好发条，它就一步一步向你走来。你有没有给这个不会说话的小伙伴，起过一个只有你知道的名字？",
+    "modelUrl": "assets/tin-robot.glb"
+  },
+  {
+    "id": "duck",
+    "name": "澡盆里的小黄鸭",
+    "emoji": "🐤",
+    "color": "#f4e8b4",
+    "desc": "一盆温水就是大海，轻轻一推，它就开始了今天的航行。小时候的你，是不是也舍不得结束洗澡时间？",
+    "modelUrl": "assets/rubber-duck.glb"
+  },
+  {
+    "id": "rings",
+    "name": "彩虹套圈塔",
+    "emoji": "🌈",
+    "color": "#e7e2c7",
+    "desc": "大圈在下面，小圈在上面。一次推倒，再一次搭好，就是小时候认真完成的大工程。",
+    "modelUrl": "assets/stacking-rings.glb"
+  },
+  {
+    "id": "bird",
+    "name": "会唱歌的小鸟哨",
+    "emoji": "🐦",
+    "color": "#e3e8dc",
+    "desc": "轻轻吹一口气，小鸟就唱起了歌。你还记得那个总想学会的旋律吗？",
+    "modelUrl": "assets/bird-whistle.glb"
+  },
+  {
+    "id": "train",
+    "name": "木头小火车",
+    "emoji": "🚂",
+    "color": "#e3e8dc",
+    "desc": "一张地毯就是世界地图。小火车出发的时候，你最想让它开到哪里？",
+    "modelUrl": "assets/wooden-locomotive.glb"
+  },
+  {
+    "id": "game",
+    "name": "口袋里的游戏机",
+    "emoji": "🎮",
+    "color": "#e3e8dc",
+    "desc": "屏幕虽然小，却装得下一整个冒险。再玩最后一局，是不是你也说过的话？",
+    "modelUrl": "assets/game-console.glb"
+  },
+  {
+    "id": "dino",
+    "name": "薄荷色三角龙",
+    "emoji": "🦕",
+    "color": "#e3e8dc",
+    "desc": "把小恐龙排成一队，课桌就变成了史前森林。最勇敢的那一只，一定有它的名字。",
+    "modelUrl": "assets/triceratops.glb"
+  },
+  {
+    "id": "penguin",
+    "name": "摇摇摆摆的小企鹅",
+    "emoji": "🐧",
+    "color": "#e3e8dc",
+    "desc": "拧几圈发条，它就摇摇摆摆走起来。那副笨拙又认真的样子，总能让人笑出声。",
+    "modelUrl": "assets/windup-penguin.glb"
+  },
+  {
+    "id": "camera",
+    "name": "装满想象的小相机",
+    "emoji": "📷",
+    "color": "#e3e8dc",
+    "desc": "咔嚓一下，就把今天留住。即使没有真正的照片，我们也记得那时候想拍下什么。",
+    "modelUrl": "assets/toy-camera.glb"
+  },
+  {
+    "id": "horse",
+    "name": "摇到远方的小木马",
+    "emoji": "🐴",
+    "color": "#e3e8dc",
+    "desc": "前一下，后一下，小木马从来不出门，却陪你到过很多远方。",
+    "modelUrl": "assets/rocking-horse.glb"
+  },
+  {
+    "id": "phone",
+    "name": "叮铃铃的拨盘电话",
+    "emoji": "☎️",
+    "color": "#e3e8dc",
+    "desc": "转动拨盘，假装拨通一个很远的地方。电话那头，你最想听见谁的声音？",
+    "modelUrl": "assets/toy-phone.glb"
+  },
+  {
+    "id": "cube",
+    "name": "转来转去的彩色方块",
+    "emoji": "🧩",
+    "color": "#e3e8dc",
+    "desc": "这一面刚拼好，另一面又乱了。小时候的耐心，就藏在一次又一次的转动里。",
+    "modelUrl": "assets/color-cube.glb"
+  },
+  {
+    "id": "drum",
+    "name": "咚咚响的小彩鼓",
+    "emoji": "🥁",
+    "color": "#eee0bd",
+    "desc": "咚，咚咚。随手敲出的节拍，就是属于自己的第一场演出。那时候，谁是你最忠实的观众？",
+    "modelUrl": "assets/toy-drum.glb"
+  },
+  {
+    "id": "roly",
+    "name": "摇摇晃晃的不倒翁",
+    "emoji": "🪆",
+    "color": "#ecdccf",
+    "desc": "推一下，它又慢慢站起来。小时候不懂什么大道理，只觉得这个永远不会倒的小伙伴，真的很神奇。",
+    "modelUrl": "assets/roly-poly.glb"
+  },
+  {
+    "id": "yoyo",
+    "name": "口袋里的悠悠球",
+    "emoji": "🪀",
+    "color": "#ead8c5",
+    "desc": "手指一抖，它又回到掌心。那个练了一下午的招式，后来成功了吗？",
+    "modelUrl": "assets/retro-yoyo.glb"
+  },
+  {
+    "id": "plane",
+    "name": "掌心里的木飞机",
+    "emoji": "🛩️",
+    "color": "#dce7ec",
+    "desc": "举过头顶，绕过沙发，飞机就飞过了整个世界。小时候的天空，从来不用买一张机票。",
+    "modelUrl": "assets/toy-plane.glb"
+  }
+]
