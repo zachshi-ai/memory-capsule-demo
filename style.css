@@ -43,3 +43,5 @@ footer .creator-credit{font-size:13px;letter-spacing:.08em;color:#28534a;margin-
  #share-dialog>small{margin-top:4px}
 }
 @media(max-width:759px){#share-dialog .share-actions{position:static;background:transparent}#share-dialog #share-canvas{max-height:48vh!important}}
+
+.thumbnail-status{font-size:12px;line-height:1.6;text-align:center;padding:26px;color:#607767;z-index:1}.card-image .model-thumbnail{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.card-number,.card-chip{z-index:2}.machine-loading{background:transparent;font-size:14px}#collection-list[open] .card-image:before{opacity:.3}
