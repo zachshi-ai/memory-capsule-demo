@@ -45,3 +45,25 @@ footer .creator-credit{font-size:13px;letter-spacing:.08em;color:#28534a;margin-
 @media(max-width:759px){#share-dialog .share-actions{position:static;background:transparent}#share-dialog #share-canvas{max-height:48vh!important}}
 
 .thumbnail-status{font-size:12px;line-height:1.6;text-align:center;padding:26px;color:#607767;z-index:1}.card-image .model-thumbnail{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.card-number,.card-chip{z-index:2}.machine-loading{background:transparent;font-size:14px}#collection-list[open] .card-image:before{opacity:.3}
+
+/* Responsive controls, scrollable dialogs and durable file-save actions. */
+body:has(dialog[open]){overflow:hidden}button,summary,a,input,select,textarea{touch-action:manipulation}button,select,summary{min-height:44px}summary{padding:12px 0;cursor:pointer}
+.machine-note{margin:0 auto 14px;padding:0 12px}#machine canvas,.cabinet-canvas canvas{touch-action:pan-y!important}
+.section-head{gap:12px;flex-wrap:wrap}.section-head>div{flex:1;min-width:150px}.section-head h2{margin-bottom:8px}.section-head .text-btn{padding:10px 12px}
+#item-dialog{max-height:calc(100dvh - 24px);overflow:hidden}#item-dialog .reveal-layout{max-height:calc(100dvh - 24px);overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable}
+.close{width:44px;height:44px;min-height:44px;right:10px;top:10px;box-shadow:0 2px 10px #183f3b22}#item-dialog .object-story{min-width:0;padding-top:58px}#item-dialog textarea,#print-size,select{font-size:16px}
+.print-output{margin:12px 0;display:grid;gap:12px}.print-output[hidden]{display:none}.file-download,.print-output button{display:block;border:1px solid #2c5d4e;border-radius:8px;padding:14px;background:#e1ecdf;color:#204a3e;font-weight:600;font-size:14px;overflow-wrap:anywhere;text-align:center;min-height:48px}
+#toast{max-width:calc(100vw - 32px);width:max-content;bottom:max(20px,env(safe-area-inset-bottom));pointer-events:none}.card-body,.memory-card{min-width:0}.card-choice{flex-wrap:wrap}.card-choice span{min-width:0;overflow-wrap:anywhere}
+@media(max-width:759px){
+ header{padding:0 4%;height:68px;gap:8px}main{padding:0 4%}.brand{font-size:15px}.brand small{display:none}nav{gap:8px}.brand-icon{font-size:27px}
+ .hero{display:flex;flex-direction:column;min-height:0;gap:0}.intro{width:100%;padding-top:24px;text-align:center}h1{font-size:clamp(30px,8vw,44px);letter-spacing:-1.5px;line-height:1.25;margin:12px 0}h1 br{display:none}.lead{font-size:13px;margin:10px 0}.hero-note,.scribble{display:none}
+ .machine-stage{width:100%}#machine{height:clamp(260px,76vw,390px)}.stage-halo{top:4%;max-height:82%}.machine-controls{margin:0 0 22px}.machine-controls .draw-btn{width:min(100%,320px);min-height:52px}.machine-controls p{margin:12px 0 0}.machine-note{font-size:11px}
+ .collection{padding-top:24px}.section-head{gap:4px}.section-head h2{font-size:20px}.section-head h2 span{font-size:11px;margin-left:6px}.section-head .text-btn{font-size:12px;padding:8px}.section-head>div{min-width:140px}
+ .cabinet-canvas{height:clamp(280px,92vw,420px)}.shelf-tools{margin:12px 0}.shelf-pagination{gap:10px;font-size:13px}.shelf-pagination button{padding:10px 14px}.shelf{grid-template-columns:1fr;gap:12px}.memory-card{display:flex}.card-image{width:100px;min-width:100px;height:112px}.card-body{padding:18px 14px}
+ #item-dialog{width:calc(100vw - 16px);max-width:600px;max-height:calc(100dvh - 16px);margin:auto;border-radius:14px}#item-dialog .reveal-layout{display:block;max-height:calc(100dvh - 16px);scrollbar-gutter:auto}
+ #item-dialog .object-stage{border-radius:14px 14px 0 0;padding-top:16px}#object-view{height:clamp(190px,32dvh,280px);touch-action:pan-y}#object-view canvas{touch-action:pan-y!important}.object-stage>p{margin:0 0 10px}
+ #item-dialog .object-story{padding:18px 18px max(22px,env(safe-area-inset-bottom))}.object-story h2{font-size:25px}.object-story .eyebrow{margin:14px 0 8px}.object-story label{margin-top:14px}.object-story textarea{min-height:88px}.save-row{flex-wrap:wrap}.save-row .draw-btn{min-height:48px;flex:1}.save-row span{font-size:12px}
+ #print-panel{padding:12px}#print-panel summary{font-size:14px}.print-actions button{flex:1;min-width:100px;min-height:48px}.model-loading{padding:20px;font-size:13px}
+ #share-dialog{width:calc(100vw - 16px);padding:20px 16px;max-height:calc(100dvh - 16px)}#share-dialog h2{padding-right:44px;font-size:24px}#share-dialog #share-canvas{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain}.share-actions button{flex:1;min-width:95px;min-height:48px}
+}
+@media(max-height:500px) and (min-width:600px){#item-dialog .reveal-layout{display:grid;grid-template-columns:45% 55%}#item-dialog .object-stage{position:sticky;top:0;align-self:start}#object-view{height:260px}#item-dialog .object-story{padding-top:55px}}
